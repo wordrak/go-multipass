@@ -1,11 +1,11 @@
-## go-mulitpass client
+## go-multipass client
 
 Golang client SDK to interact with canonical's multipass.
 
 #### To launch an instance
 ```
-instance, err := multipass.Launch(&multipass.LaunchReq{
-    CPU:           2,
+instance, err := multipass.LaunchV2(&multipass.LaunchReqV2{
+    CPUS:           2,
     Name: "instanceName", 
 })
 if err != nil {
