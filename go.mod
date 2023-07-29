@@ -1,4 +1,4 @@
-module github.com/larstobi/go-multipass
+module github.com/wordrak/go-multipass
 
 go 1.12
 
